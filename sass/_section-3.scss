@@ -1,0 +1,74 @@
+body {
+    .container-fluid {
+        .row {
+            .section-3 {
+                padding: 0 120px;
+                height: 850px;
+                background: $color-6;
+                .section-3-top {
+                    // margin-top: 100px;
+                    h3 {
+                        margin-left: 30px;
+                        margin-bottom: 45px;
+                    }
+                }
+                .section-3-bottom {
+                    .item-1,
+                    .item-2,
+                    .item-3,
+                    .item-4 {
+                        border-bottom-left-radius: 6px;
+                        border-bottom-right-radius: 6px;
+                        display: flex;
+                        background-color: $color-7;
+                        flex-direction: column;
+                        // align-items: flex-start;
+                        // justify-content: space-around;
+                        background: $color-7;
+                        // padding: 14px;
+                        margin: 10px;
+                        width: 300px;
+                        .img-container {
+                            display: flex;
+                            border-top-left-radius: 6px;
+                            border-top-right-radius: 6px;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            object-fit: cover;
+                            background-position: end;
+                            overflow: hidden;
+                            margin: 0;
+                            width: 300px;
+                            height: 240px;
+                            img {
+                                object-fit: cover;
+                                background-position: end;
+                                height: 100%;
+                                width: 100%;
+                                // width: 100%;
+                            }
+                        }
+                        span {
+                            font-size: .8em;
+                            padding: 10px 20px;
+                            margin-top: 25px;
+                        }
+                        h4 {
+                            padding: 5px 20px;
+                            font-size: 1.1em;
+                            transition: color .2s ease;
+                            &:hover {
+                                color: #2EC59A;
+                            }
+                        }
+                        p {
+                            padding: 10px 20px;
+                            font-size: .9em;
+                            margin-bottom: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+Esta es la base para empezar un trabajo que contiene 
+
+- HTML 
+- Bootstrap 
+- CSS
+- JAVASCRIPT
+- SASS
+
+todos bien implementados.

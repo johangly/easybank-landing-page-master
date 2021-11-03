@@ -1,0 +1,44 @@
+body {
+    .container-fluid {
+        .row {
+            .white-space {
+                position: relative;
+                z-index: -1;
+                background: $color-5;
+            }
+            .section-2 {
+                background: $color-5;
+                div {
+                    background: $color-5;
+                }
+                height: 100vh;
+                .section-2-top {
+                    height: 40%;
+                    h2 {
+                        margin-bottom: 28px;
+                    }
+                }
+                .section-2-bottom {
+                    height: 60%;
+                    div {
+                        position: relative;
+                        z-index: 1;
+                        width: 320px;
+                        padding: 14px;
+                        h3 {
+                            margin-top: 40px;
+                        }
+                        p {
+                            margin-top: 20px;
+                        }
+                    }
+                    .item-1 {
+                        p {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

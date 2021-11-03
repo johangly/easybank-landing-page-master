@@ -1,0 +1,28 @@
+// PRINCIPAL COLORS
+$color-1:hsl(233, 26%, 24%); //Dark Blue
+$color-2:#31d35c; //Lime Green
+$color-3:#2bb7da; //Bright Cyan
+// NEUTRAL COLORS
+$color-4:hsl(233, 8%, 62%); //Grayish Blue
+$color-5:hsl(220, 16%, 96%); //Light Grayish Blue
+$color-6:hsl(0, 0%, 98%); //Very Light Gray
+$color-7:hsl(0, 0%, 100%); //White
+// FONTS
+$font-1:'Public Sans',
+sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-1;
+    font-size: 18px;
+    // outline: 1px solid rgba(255, 0, 0, 0.63);
+    font-weight: 200;
+}
+
+// height: 85vh;
+@import '_navbar.scss';
+@import '_section-1.scss';
+@import '_section-2.scss';
+@import '_section-3.scss';
+@import '_footer.scss';
