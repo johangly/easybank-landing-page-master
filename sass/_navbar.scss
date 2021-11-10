@@ -58,6 +58,17 @@ body {
                     }
                 }
             }
+            .nav-4 {
+                height: 100%;
+                width: 50%;
+                button {
+                    background: transparent;
+                    border: none;
+                    img {
+                        height: 23%;
+                    }
+                }
+            }
         }
     }
 }

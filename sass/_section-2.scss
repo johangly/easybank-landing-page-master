@@ -1,32 +1,31 @@
 body {
     .container-fluid {
         .row {
-            .white-space {
-                position: relative;
-                z-index: -1;
-                background: $color-5;
-            }
+            display: block;
             .section-2 {
+                padding: 100px 0px;
+                margin: 0;
+                width: 100%;
                 background: $color-5;
                 div {
                     background: $color-5;
                 }
-                height: 100vh;
                 .section-2-top {
-                    height: 40%;
+                    margin-bottom: 28px;
                     h2 {
                         margin-bottom: 28px;
+                        width: 100%;
                     }
                 }
                 .section-2-bottom {
-                    height: 60%;
                     div {
-                        position: relative;
-                        z-index: 1;
-                        width: 320px;
-                        padding: 14px;
+                        padding: 20px 0;
+                        div {
+                            margin: 5px 5px;
+                        }
                         h3 {
                             margin-top: 40px;
+                            font-size: clamp(1.3em, 2.5vw, 1.6em);
                         }
                         p {
                             margin-top: 20px;

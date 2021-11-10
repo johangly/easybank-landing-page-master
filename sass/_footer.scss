@@ -3,19 +3,26 @@ body {
         .row {
             footer {
                 background-color: $color-1;
-                height: 150px;
+                // height: 150px;
+                width: 100%;
+                padding: 35px 0px;
                 .footer-left {
+                    padding: 15px 0px;
                     .footer-left-top {
                         height: 50%;
-                        margin-top: 20px;
+                        margin: 12px 0px;
+                        img {
+                            height: 27px;
+                        }
                     }
                     .footer-left-bottom {
                         width: 35%;
                         height: 50%;
-                        margin-bottom: 20px;
+                        margin: 12px 0px;
                         img {
-                            width: 23px;
-                            height: 23px;
+                            margin: 0px 10px;
+                            width: 27px;
+                            height: 27px;
                             background-size: cover;
                             &:hover {
                                 filter: brightness(0) saturate(100%) invert(61%) sepia(100%) saturate(296%) hue-rotate(112deg) brightness(87%) contrast(94%);
@@ -24,10 +31,11 @@ body {
                     }
                 }
                 .footer-center {
+                    padding: 15px 0px;
                     div {
                         width: 50%;
                         a {
-                            margin: 8px 0;
+                            margin-bottom: 10px;
                             display: block;
                             text-decoration: none;
                             color: #fff;
@@ -38,6 +46,7 @@ body {
                     }
                 }
                 .footer-right {
+                    padding: 15px 0px;
                     padding-right: 100px;
                     button {
                         overflow: hidden;
