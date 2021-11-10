@@ -21,6 +21,11 @@ sans-serif;
     color: #222222
 }
 
+.body-block {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 // height: 85vh;
 @import '_navbar.scss';
 @import '_section-1.scss';
