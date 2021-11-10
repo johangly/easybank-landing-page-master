@@ -1,0 +1,42 @@
+    body {
+        .sidenav {
+            .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 45px;
+                padding: 0;
+                color: $color-1;
+                text-decoration: none;
+                &:hover {
+                    color: #2EC59A;
+                    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+                }
+            }
+            background: $color-5;
+            height: 100%;
+            width: 0px;
+            position: fixed;
+            z-index: 101;
+            top: 0;
+            right: 0;
+            overflow: hidden;
+            padding-top: 60px;
+            transition: .5s ease all;
+            .buttons {
+                padding: 8px 8px 8px 32px;
+                font-family: $font-1;
+                font-weight: 400;
+                text-decoration: none;
+                font-size: 25px;
+                color: #222222;
+                display: block;
+                transition: 0.3s ease all;
+                position: relative;
+                &:hover {
+                    color: #FFFFFF;
+                    background: linear-gradient( 90deg, #31d35c 0%, #2bb7da 100%);
+                }
+            }
+        }
+    }

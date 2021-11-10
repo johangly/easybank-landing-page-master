@@ -18,6 +18,7 @@ sans-serif;
     font-size: 18px;
     // outline: 1px solid rgba(255, 0, 0, 0.63);
     font-weight: 200;
+    color: #222222
 }
 
 // height: 85vh;
@@ -27,3 +28,4 @@ sans-serif;
 @import '_section-3.scss';
 @import '_responsive.scss';
 @import '_footer.scss';
+@import '_sidenav.scss';
