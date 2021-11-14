@@ -3,13 +3,15 @@ body {
         overflow: hidden;
         .row {
             .section-1 {
-                height: calc(100vh - 65px);
+                height: calc(80vh - 65px);
                 background: $color-6;
                 .section-1-left {
                     height: 100%;
+                    padding-left: clamp(40px, 6.9vw, 100px);
                     background-color: transparent;
-                    h2 {
-                        font-size: clamp(1.8em, 2.5vw, 3em);
+                    h1 {
+                        font-size: clamp(2.1em, 3.6vw, 2.7em);
+                        color: $color-1;
                         margin-bottom: 25px;
                     }
                     p {
@@ -44,17 +46,20 @@ body {
                 }
             }
             .section-1-right {
+                height: 100%;
+                width: 50%;
                 .img-1 {
-                    width: 158%;
-                    top: -234px;
-                    left: -27px;
+                    width: clamp(845px, 72.5vw, 989px);
+                    top: -193px;
                     z-index: 5;
+                    height: 800px;
+                    right: -378px;
                 }
                 .img-2 {
-                    width: 100%;
-                    top: -120px;
+                    width: clamp(466px, 44.5vw, 577px);
+                    top: -85px;
                     z-index: 5;
-                    left: 137px;
+                    right: -102px;
                 }
             }
         }
